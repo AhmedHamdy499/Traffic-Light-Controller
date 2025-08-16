@@ -1,0 +1,17 @@
+main
+	__CC2DW
+		____DoICP
+	initialConfig
+	firstPhase
+		setWest
+		setSouth
+	secondPhase
+		setWest
+		setSouth
+	thirdPhase
+		setWest
+		setSouth
+	fourthPhase
+		setWest
+		setSouth
+interrupt
