@@ -20,7 +20,7 @@ int countDown[] = {0x00,0x01,0x02,0x03,0x04,0x05,0x06,0x07,0x08,0x09,0x10,0x11,0
 
 void initialConfig(){
 TRISB = 0; TRISC = 0; TRISD = 0;  //Set PORT B,C,D As Output
-ADCON1 = 7;   //Make PortA & PortE R/W Analog Signal
+ADCON1 = 7;   //Make PortA & PortE R/W Digital Signal
 TRISB.B0 = 1; //Make interrupt pin as input
 GIE_Bit = 1;  //Global interrupt enable
 INTE_Bit = 1; //B0 interrupt enable
